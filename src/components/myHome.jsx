@@ -34,25 +34,13 @@ const MyHome = () => {
           and JavaScript to deliver creative and responsive designs.
         </p>
         <div className="mt-6">
-          <a
-            href="#contact"
+          <div
+            onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
             className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-700 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105"
           >
             Get in Touch
-          </a>
+          </div>
         </div>
-
-{/* <button
-  className="bg-blue-gray-50 text-center w-52 rounded-2xl h-14 relative text-black text-xl font-semibold group mt-5"
-  type="button"
-  onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
->
-  <div className="bg-blue-400 bg-gradient-to-r from-blue-500 to-indigo-700  rounded-xl h-12 w-1/4 flex items-center justify-center absolute left-1 top-[4px] group-hover:w-[199px] z-10 duration-500">
-    <ArrowDownIcon className="h-5 w-5 text-white" />
-  </div>
-  <p className="translate-x-2 ml-4">Get in Touch</p>
-</button> */}
-
       </div>
     </div>
   );
