@@ -43,7 +43,7 @@ function Projects() {
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollBy({
-        left: -300,
+        left: -237,
         behavior: "smooth",
       });
     }
@@ -51,7 +51,7 @@ function Projects() {
   const scrollRight = () => {
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollBy({
-        left: 300,
+        left: 237,
         behavior: "smooth",
       });
     }
