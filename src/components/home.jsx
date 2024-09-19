@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className="">
       <HeaderMain />
-      <div id="home" className="-mt-5">
+      <div id="home" className="-mt-8 md:-mt-5">
         <MyHome />
       </div>
       <div id="aboutUs">
