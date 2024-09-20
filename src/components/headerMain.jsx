@@ -17,7 +17,7 @@ function HeaderMain() {
         } md:w-1/3 lg:hidden z-50 shadow-lg`}
       >
         <div className="flex flex-col items-center p-6">
-          <div className="self-end mb-6 ">
+          <div className="self-start mb-6 ">
             <button
               className="text-gray-700"
               onClick={() => setIsMenuOpen(false)}
