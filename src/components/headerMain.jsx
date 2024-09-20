@@ -12,12 +12,14 @@ function HeaderMain() {
   return (
     <header className="fixed top-0 left-0 w-full bg-gradient-to-r from-blue-100 to-gray-200 text-blue-900 z-50 shadow-md">
       <div
-        className={`fixed top-0 left-0 w-64 h-[24rem] bg-gray-50 rounded-lg text-black transition-transform duration-500 ease-in-out transform ${
-          isMenuOpen ? "translate-x-0" : "-translate-x-full"
+        className={`fixed top-0 left-0 w-64 h-[24rem] bg-gray-50 rounded-lg text-black transform transition-all duration-700 ease-in-out ${
+          isMenuOpen
+            ? "translate-x-0 rotate-0 opacity-100 scale-100 origin-left"
+            : "-translate-x-full -rotate-12 opacity-0 scale-50 origin-left"
         } md:w-1/3 lg:hidden z-50 shadow-lg`}
       >
         <div className="flex flex-col items-center p-6">
-          <div className="self-start mb-6 ">
+          <div className="self-start mb-6">
             <button
               className="text-gray-700"
               onClick={() => setIsMenuOpen(false)}
@@ -28,6 +30,7 @@ function HeaderMain() {
               />
             </button>
           </div>
+
           <div className="flex flex-col space-y-6 w-full text-center -mt-8">
             <Link
               to="home"
@@ -175,7 +178,9 @@ function HeaderMain() {
 
       <div className="lg:hidden flex justify-between items-center p-4 bg-white shadow-md">
         <button
-          className="text-gray-700 focus:outline-none"
+          className={`text-gray-700 focus:outline-none transition-transform duration-500 ${
+            isMenuOpen ? "rotate-180" : ""
+          }`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <Bars3Icon className="h-8 w-8 hover:text-blue-600 transition duration-300" />
