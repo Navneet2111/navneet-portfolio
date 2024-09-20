@@ -4,7 +4,7 @@ function ProjectCard({ title, description, image, link }) {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-white text-black min-w-[232px] rounded-2xl shadow-lg p-2 transform transition-transform duration-300 hover:scale-105 cursor-pointer relative group"
+      className="bg-white text-black min-w-[233px] rounded-2xl shadow-lg p-2 transform transition-transform duration-300 hover:scale-105 cursor-pointer relative group"
     >
       <div className="relative w-full h-40">
         <img
