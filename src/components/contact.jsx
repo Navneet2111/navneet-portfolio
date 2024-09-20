@@ -1,4 +1,5 @@
 import ScrollButton from "./button";
+
 function Contact() {
   return (
     <div
@@ -56,15 +57,16 @@ function Contact() {
           <p className="mt-2 text-center">navneet2111</p>
         </a>
 
-        <a href="mailto:na.vneet2111rai@gmail.com"          
+        <div
+          
           className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-xl w-64 h-52"
         >
           <div className="text-indigo-900 text-4xl mb-4 mt-4">
             <i className="fas fa-envelope"></i>
           </div>
           <h3 className="text-lg font-bold">Email</h3>
-          <p  className="mt-2 text-center">na.vneet2111rai@gmail.com</p>
-        </a>
+          <a href="mailto:na.vneet2111rai@gmail.com" className="mt-2 text-center">na.vneet2111rai@gmail.com</a>
+        </div>
 
         <a
           href="tel:+918009688506"
@@ -79,6 +81,8 @@ function Contact() {
       </div>
       <ScrollButton/>
       </div>
+   
   );
 }
+
 export default Contact;
