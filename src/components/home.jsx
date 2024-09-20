@@ -12,7 +12,7 @@ function Home() {
       <div id="home" className="-mt-5">
         <MyHome />
       </div>
-      <div id="aboutUs">
+      <div id="aboutUs" className="">
         <AboutUs />
       </div>
       <div className="">
