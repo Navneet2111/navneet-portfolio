@@ -95,7 +95,7 @@ function Technologys() {
       id="tech"
       className="pt-8 lg:-pt-24 pb-16 bg-gradient-to-r from-gray-50 via-white to-blue-50  flex flex-col items-center"
     >
-      <h2 className="text-3xl font-bold mb-6  text-indigo-900 mt-12">
+      <h2 className="text-3xl font-bold mb-6 text-center  text-indigo-900 mt-6">
         Technologies I Work With
       </h2>
       <p className="text-lg mb-10 text-gray-600 text-center max-w-2xl">
