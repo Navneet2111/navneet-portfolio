@@ -69,7 +69,7 @@ function Projects() {
         <h1 className="flex flex-col items-center text-center justify-center text-3xl font-bold mt-8 mb-8">
           Collection of some of my Recent Work
         </h1>
-        <p className="flex flex-col items-center justify-center mt-4 text-gray-700 text-lg mb-2">
+        <p className="flex flex-col items-center justify-center mt-4 text-gray-700 text-lg text-center mb-2">
           You can find my projects and contributions on GitHub. Feel free to
           explore ...
         </p>
