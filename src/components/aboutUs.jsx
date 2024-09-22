@@ -4,7 +4,7 @@ function AboutUs() {
       id="homeAboutSection"
       className="px-4  bg-gradient-to-r from-gray-50 via-white to-blue-50 flex flex-col items-center min-h-screen"
     >
-      <div className="w-full max-w-7xl flex flex-col md:flex-row justify-center items-center gap-12 mt-20">
+      <div className="w-full max-w-7xl flex flex-col md:flex-row justify-center items-center gap-12 mt-19">
         <div className="md:w-3/5 lg:w-2/3 flex flex-col items-center text-center">
           <h1 className="text-indigo-900 text-3xl font-bold mb-4 md:mb-6 animate-fade-in -mt-7">
             ABOUT ME
