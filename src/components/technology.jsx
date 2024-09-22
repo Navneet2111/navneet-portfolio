@@ -77,7 +77,7 @@ const Card = ({ image, title, description }) => {
       <img src={image} alt={title} className="w-16 h-16 object-contain mb-4" />
       <h3 className="text-lg font-bold">{title}</h3>
 
-      <div className=" -mt-12 absolute top-0 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-all duration-500 group-hover:rotate-x-0 rotate-x-90 bg-white p-4 text-sm rounded-lg shadow-lg z-10 w-[16.9rem] group-hover:shadow-xl group-hover:shadow-blue-500/50 cursor-pointer">
+      <div className=" -mt-12 absolute top-0 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-all duration-500 group-hover:rotate-x-0 rotate-x-90 bg-white p-4 text-sm rounded-lg shadow-lg z-10 w-[16.9rem] group-hover:shadow-xl group-hover:shadow-blue-500/50">
         <div className="flex justify-between items-center">
           <h4 className="font-semibold text-gray-800 transition-transform duration-500 transform translate-x-10 opacity-0 group-hover:translate-x-0 group-hover:opacity-100">
             {title}
@@ -88,7 +88,7 @@ const Card = ({ image, title, description }) => {
             className="w-12 h-12 object-contain transition-transform duration-500 transform -translate-x-10 opacity-0 group-hover:translate-x-0 group-hover:opacity-100"
           />
         </div>
-        <p className="text-gray-600 mt-2 text-justify cursor-pointer">{description}</p>
+        <p className="text-gray-600 mt-2 text-justify">{description}</p>
       </div>
     </div>
   );
@@ -98,7 +98,7 @@ function Technologys() {
   return (
     <div
       id="tech"
-      className="pt-8 lg:pt-24 pb-16 bg-gradient-to-r from-gray-50 via-white to-blue-50 flex flex-col items-center"
+      className="pt-8 lg:pt-12 pb-16 bg-gradient-to-r from-gray-50 via-white to-blue-50 flex flex-col items-center"
     >
       <h2 className="text-3xl font-bold mb-6 text-center text-indigo-900 mt-6">
         Technologies I Work With
