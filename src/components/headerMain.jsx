@@ -74,11 +74,19 @@ function HeaderMain() {
       <nav className="hidden lg:flex bg-white bg-opacity-90 backdrop-blur-md text-blue-900 py-4 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-4">
-            <img
-              src="/img/logo1.png"
-              alt="Portfolio Logo"
-              className="h-10 w-auto cursor-pointer"
-            />
+           <Link
+              to="home"
+              smooth={true}
+              duration={500}
+              offset={-70}
+              className="cursor-pointer"
+            >
+              <img
+                src="/img/logo1.png"
+                alt="Portfolio Logo"
+                className="h-10 w-auto"
+              />
+            </Link>
           </div>
           <div className="flex space-x-10">
             {navLinks.map((link) => (
