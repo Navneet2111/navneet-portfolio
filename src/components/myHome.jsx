@@ -36,7 +36,7 @@ const MyHome = () => {
         <div className="mt-6">
           <div
              onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
-            className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-700 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105"
+            className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-700 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 cursor-pointer"
           >
             Get in Touch
           </div>
